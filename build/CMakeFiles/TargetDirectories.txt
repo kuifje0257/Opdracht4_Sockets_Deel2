@@ -1,0 +1,5 @@
+/home/pi/EMBED2/Labo/Opdracht4_deel2/build/CMakeFiles/rebuild_cache.dir
+/home/pi/EMBED2/Labo/Opdracht4_deel2/build/CMakeFiles/edit_cache.dir
+/home/pi/EMBED2/Labo/Opdracht4_deel2/build/CMakeFiles/Http.dir
+/home/pi/EMBED2/Labo/Opdracht4_deel2/build/CMakeFiles/Client.dir
+/home/pi/EMBED2/Labo/Opdracht4_deel2/build/CMakeFiles/Server.dir
