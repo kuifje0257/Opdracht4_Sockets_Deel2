@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Hello World example</title>
+    </head>
+    <body>
+        <h1> Hello World!</h1>
+        <select name="GPIOs" id="numberGPIO">
+            <option value="17">GPIO 17</option>
+            <option value="27">GPIO 27</option>
+        </select>
+        <select name="Period" id="toggleSpeed">
+            <option value="1">1 Seconde</option>
+            <option value="2">2 Seconden</option>
+            <option value="5">5 Seconden</option>
+            <option value="10">10 Seconden</option>
+        </select>
+        <button onclick="activateLed()">LED toggle</button>
+
+<script>
+function activateLed(){
+    //get value
+    var gpio = document.getElementById("numberGPIO");
+    var time = document.getElementById("toggleSpeed");     // toggle tijd voor aan en uit
+
+    console.log("Gpio "+gpio.value+" zal steeds togglen voor "+time.value *2+ " Seconde(n)."); //totale toggle tijd
+
+    //send to server
+        
+
+}
+</script>
+</body>
+</html>
